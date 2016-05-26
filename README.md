@@ -88,7 +88,7 @@ sonar.javascript.lcov.reportPath=tmyproject/coverage/lcov.info
 * For both ways you need to make sure the [JavaScript plugin](http://docs.sonarqube.org/display/PLUG/JavaScript+Plugin) is [installed](http://docs.sonarqube.org/display/SONAR/Installing+a+Plugin) in SonarQube.
 * To use the SonarQube Jenkins Plugin you need to install it in Jenkins so make sure you have admin rights.
 * Once you have the plugin installed in Jenkins you'll need to configure the plugin:
-![Jenkins SonarQube Plugin Configuration](http://i.imgur.com/t1CLlPz.png?1)
+![Jenkins SonarQube Plugin Configuration](http://i.imgur.com/d4FLVDw.png?1)
 * Once you have your plugin configured, go to your job and add the build step `Invoke Standalone SonarQube Analysis`. Here is the setup I have based on my own configurations. Notice how I specify both a property file and then some more properties that I pulled from Jenkins global configs. 
 ![Jenkins SonarQube Runner](http://i.imgur.com/t1CLlPz.png?1)
 * If you want to use the `sonar-runner` instead, follow the instructions [here](http://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner). You can still use the same `sonar-project.properties` with the runner.
