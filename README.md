@@ -94,7 +94,7 @@ sonar.javascript.lcov.reportPath=tmyproject/coverage/lcov.info
 * If you want to use the `sonar-runner` instead, follow the instructions [here](http://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner). You can still use the same `sonar-project.properties` with the runner.
 
 ### Other useful documentation
-* To checkout an example use `jasmine examples`
+* To checkout a Jasmine Test example run `jasmine examples`
 * [Jasmine](http://jasmine.github.io/2.1/node.html)
 
 ![meme](http://www.daedtech.com/wp-content/uploads/2012/12/TestAllTheThings.jpg)
