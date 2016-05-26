@@ -9,7 +9,7 @@ these instructions [Installing NodeJS](https://nodejs.org/en/download/package-ma
 
 ### Getting started with Jasmine
 [Jasmine](http://jasmine.github.io/2.4/introduction.html) is a behavior-driven development framework for testing JavaScript code. It does not depend on any other JavaScript framework and it has a clean, obvious syntax so that you can easily write tests. 
-* To initialize Jasmine use `jasmine unit`. It creates the `spec` directories and `spec/support/jasmine.json` 
+* To initialize Jasmine use `jasmine init`. It creates the `spec` directories and `spec/support/jasmine.json` 
 which contains Jasmine's configurations
 * Add the following files
 
@@ -72,8 +72,8 @@ sonar.projectVersion=1.0
 sonar.projectBaseDir=./myproject
 
 # Comma-separated paths to directories with sources (required)
-sonar.sources=myproject/lib/
-sonar.tests=myproject/spec/
+sonar.sources=./lib/
+sonar.tests=./spec/
 
 # Encoding of the source files
 sonar.sourceEncoding=UTF-8
@@ -81,8 +81,8 @@ sonar.language=js
 
 # Report Paths
 sonar.javascript.forceZeroCoverage=false
-sonar.javascript.jstest.reportsPath=myproject/coverage
-sonar.javascript.lcov.reportPath=tmyproject/coverage/lcov.info
+sonar.javascript.jstest.reportsPath=./coverage
+sonar.javascript.lcov.reportPath=./coverage/lcov.info
 ```
 * There are multiple ways to execute sonar. I've used the `sonar-runner` and also the `SonarQube Jenkins Plugin` since I'm using Jenkins to build my own projects.
 * For both ways you need to make sure the [JavaScript plugin](http://docs.sonarqube.org/display/PLUG/JavaScript+Plugin) is [installed](http://docs.sonarqube.org/display/SONAR/Installing+a+Plugin) in SonarQube.
