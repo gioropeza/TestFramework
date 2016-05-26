@@ -9,7 +9,7 @@ these instructions [Installing NodeJS](https://nodejs.org/en/download/package-ma
 
 ### Getting started with Jasmine
 [Jasmine](http://jasmine.github.io/2.4/introduction.html) is a behavior-driven development framework for testing JavaScript code. It does not depend on any other JavaScript framework and it has a clean, obvious syntax so that you can easily write tests. 
-* To initialize Jasmine use `jasmine unit`. It creates the `lib` and `spec` directories and `spec/support/jasmine.json` 
+* To initialize Jasmine use `jasmine unit`. It creates the `spec` directories and `spec/support/jasmine.json` 
 which contains Jasmine's configurations
 * Add the following files
 
